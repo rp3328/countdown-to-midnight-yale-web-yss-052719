@@ -5,7 +5,7 @@ def countdown(input)
   input = x
   while counter <= input
     x -= 1
-    puts "x SECOND(S)!"
+    puts "#{x} SECOND(S)!"
     counter +=1
   end
 end
